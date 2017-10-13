@@ -1,0 +1,43 @@
+{
+  "persons": {
+    "person1": {
+      "name": "Alaa",
+      "job": "Web Developer",
+      "years": 3,
+      "address": {
+        "lines": {
+          "line1": "Flat 1",
+          "line2": "123 whitefield Road"
+        },
+        "town": "Bolton",
+        "postcode": "123456"
+      }
+    },
+    "person2": {
+      "name": "Tom",
+      "job": "Test Analyst",
+      "years": 5,
+      "address": {
+        "lines": {
+          "line1": "456 Blackhorse Road",
+          "line2": "Deane Close"
+        },
+        "town": "Bury",
+        "postcode": "ABC2 468"
+      }
+    },
+    "person3": {
+      "name": "Zara",
+      "job": "UX Designer",
+      "years": 2,
+      "address": {
+        "lines": {
+          "line1": "Flat 26",
+          "line2": "789 Roseberry Street"
+        },
+        "town": "Manchester",
+        "postcode": "M1 FDE"
+      }
+    }
+  }
+}

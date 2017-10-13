@@ -1,0 +1,43 @@
+<root>
+    <persons>
+        <person1>
+            <name>Alaa</name>
+            <job>Web Developer</job>
+            <years>3</years>
+            <address>
+                <lines>
+                    <line1>Flat 1</line1>
+                    <line2>123 whitefield Road</line2>
+                </lines>
+                <town>Bolton</town>
+                <postcode>123456</postcode>
+            </address>
+        </person1>
+        <person2>
+            <name>Tom</name>
+            <job>Test Analyst</job>
+            <years>5</years>
+            <address>
+                <lines>
+                    <line1>456 Blackhorse Road</line1>
+                    <line2>Deane Close</line2>
+                </lines>
+                <town>Bury</town>
+                <postcode>ABC2 468</postcode>
+            </address>
+        </person2>
+        <person3>
+            <name>Zara</name>
+            <job>UX Designer</job>
+            <years>2</years>
+            <address>
+                <lines>
+                    <line1>Flat 26</line1>
+                    <line2>789 Roseberry Street</line2>
+                </lines>
+                <town>Manchester</town>
+                <postcode>M1 FDE</postcode>
+            </address>
+        </person3>
+    </persons>
+</root>

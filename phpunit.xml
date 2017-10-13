@@ -1,0 +1,25 @@
+<phpunit backupGlobals="false" verbose="false" syntaxCheck="true">
+    <php>
+        <ini name="error_reporting" value="-1" />
+    </php>
+    <testsuites>
+        <testsuite name="Markup to Arrat">
+            <directory suffix="Test.php">./</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true">
+            <directory>./src</directory>
+            <exclude>
+                <file>./src/DataInterface.php</file>
+                <file>./src/MarkupException.php</file>
+                <file>./src/Markup/FileInterface.php</file>
+                <file>./src/Markup/FileParserInterface.php</file>
+                <file>./src/Markup/JsonInterface.php</file>
+            </exclude>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="./coverage" lowUpperBound="35" highLowerBound="70"/>
+    </logging>
+</phpunit>

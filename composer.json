@@ -1,0 +1,23 @@
+
+{
+  "name": "alaa-almaliki/markup-to-array",
+  "type": "php-library",
+  "homepage": "https://github.com/alaa-almaliki/markup-to-array",
+  "license": "MIT",
+  "keywords": ["xml markup","yaml markup", "json"],
+  "version": "1.0.0",
+  "authors": [
+    {
+      "name": "Alaa Al-Maliki",
+      "email": "alaa.almaliki@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Markup\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.2"
+  }
+}
