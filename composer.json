@@ -5,7 +5,6 @@
   "homepage": "https://github.com/alaa-almaliki/markup-to-array",
   "license": "MIT",
   "keywords": ["xml markup","yaml markup", "json"],
-  "version": "1.0.0",
   "authors": [
     {
       "name": "Alaa Al-Maliki",

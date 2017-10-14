@@ -1,5 +1,5 @@
 # Markup to Array
-This package can be used to as basic a converter from XML, Json and YAML files to array
+This package can be used as basic a converter from XML, Json and YAML files to array
 
 # Install
 Use composer
